@@ -150,3 +150,13 @@ const formattedDate = pubDate.toLocaleDateString('en-GB', {
     </div>
   </body>
 </html>
+
+<script is:inline>
+  // This automatically finds all images and adds the base path if missing
+  const base = '/economics-site/'; 
+  document.querySelectorAll('img').forEach(img => {
+    if (img.src.includes('/images/') && !img.src.includes(base)) {
+      img.src = img.src.replace('/images/', base + 'images/');
+    }
+  });
+</script>
