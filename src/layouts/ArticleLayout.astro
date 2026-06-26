@@ -1,6 +1,7 @@
 ---
 const { frontmatter } = Astro.props;
-const base = import.meta.env.BASE_URL;
+// Ensure base has no trailing slash
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 const pubDate = new Date(frontmatter.pubDate);
 const formattedDate = pubDate.toLocaleDateString('en-GB', {
@@ -9,10 +10,11 @@ const formattedDate = pubDate.toLocaleDateString('en-GB', {
   year: 'numeric'
 });
 
-// Helper to construct the correct path for the hero background
+// Cleanly construct the path
+// If coverImage starts with '/', join base + path. If not, add a slash.
 const heroImagePath = frontmatter.coverImage.startsWith('/') 
-  ? `${base}${frontmatter.coverImage.slice(1)}` 
-  : `${base}${frontmatter.coverImage}`;
+  ? `${base}${frontmatter.coverImage}` 
+  : `${base}/${frontmatter.coverImage}`;
 ---
 
 <html lang="en">

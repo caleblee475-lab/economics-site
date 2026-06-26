@@ -3,7 +3,7 @@ layout: ../layouts/ArticleLayout.astro
 title: "AI and Singapore’s Labour Market: Immediate and Long-Term Impacts"
 pubDate: 2026-06-27
 region: "APAC"
-coverImage: "/images/main_image_article_2.jpg"
+coverImage: "/economics-site/images/main_image_article_2.jpg"
 summary: "Generative AI acts as a macroeconomic force multiplier, causing short-term structural skills mismatches, while driving long-term FDI and advanced job creation."
 ---
 

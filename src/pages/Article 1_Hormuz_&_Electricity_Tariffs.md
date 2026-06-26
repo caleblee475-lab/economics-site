@@ -3,7 +3,7 @@ layout: ../layouts/ArticleLayout.astro
 title: "The Strait of Hormuz and Singapore: Beyond Electricity Tariffs"
 pubDate: 2026-06-25
 region: "APAC"
-coverImage: "/images/main_image_article_1.jpg"
+coverImage: "/economics-site/images/main_image_article_1.jpg"
 summary: "An analysis of cost-push inflation, tariff cost burden shifts, and macroeconomic spillovers following the closure of the Strait of Hormuz."
 ---
 
