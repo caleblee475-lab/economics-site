@@ -30,7 +30,7 @@ The term ‘Force Multiplier’ refers to a factor that increases the productivi
 Local adoption of AI tools by businesses and workers remains upbeat; AI integration within Small-to-Medium Enterprises (SMEs) has tripled from 4.2% to 14.5% over the last fiscal year, while non-SME adoption surged to 62.5%. Approximately 73.8% of workers report using AI tools to automate administrative and routine taskings [2].
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/fig1_article2.png" alt="Figure 1: AI adoption rates" style="max-width: 100%; height: auto;" />
+  <img src="/economics-site/images/fig1_article2.png" alt="Figure 1: AI adoption rates" style="max-width: 100%; height: auto;" />
   <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.1: AI adoption rates have increased significantly across employers.</em></p>
 </div>
 
@@ -43,7 +43,7 @@ To fully appreciate the complexity of AI’s impact on Singapore’s labour mark
 The IMF has identified structural vulnerabilities in Singapore’s labour market as early as 2024, predicting that lower-complexity roles such as clerical and support jobs are in the high-exposure, low-complementarity subset. The report estimates that 38.6% of Singapore’s workforce was then at immediate risk of direct machine substitution and replacement. With AI being readily adopted at a pace faster than expected, we can expect this figure to increase in 2026. [3]
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/fig2_article2.png" alt="Figure 2: AI-replacement risk" style="max-width: 100%; height: auto;" />
+  <img src="/economics-site/images/fig2_article2.png" alt="Figure 2: AI-replacement risk" style="max-width: 100%; height: auto;" />
   <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.2: High-Exposure and Low-Complementarity roles are most at-risk of AI-replacement.</em></p>
 </div>
 
@@ -52,7 +52,7 @@ An exacerbating factor would be the observation that such High-Exposure, Low-Com
 With PMET jobs making up 64.2% of employed residents in Singapore, the significant shocks to the PMET job sector brought by AI-induced redundancy would naturally spread to most of Singapore’s labour market, expanding the employment downturn to a national scale.  
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/fig3_article2.png" alt="Figure 3: At-risk occupations" style="max-width: 100%; height: auto;" />
+  <img src="/economics-site/images/fig3_article2.png" alt="Figure 3: At-risk occupations" style="max-width: 100%; height: auto;" />
   <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.3: At-risk occupations are concentrated in PMET and Administrative roles, the backbone of Singapore’s knowledge economy.</em></p>
 </div>
 
@@ -61,14 +61,14 @@ With PMET jobs making up 64.2% of employed residents in Singapore, the significa
 Historical GDP growth data demonstrates that the economy is currently in a rebound phase, exhibiting patterns that strongly resemble the previous 2009 to 2020 expansionary cycle. However, as forward-looking indicators signal an impending macroeconomic cooling phase, corporations are preemptively adopting defensive fiscal postures. To prepare for the cooling period, hiring freezes and targeted job cuts have become commonplace as firms are incentivized to integrate AI expeditiously to permanently reduce variable staffing costs through automation.  
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/fig4_article2.png" alt="Figure 4: Real GDP growth rate" style="max-width: 100%; height: auto;" />
+  <img src="/economics-site/images/fig4_article2.png" alt="Figure 4: Real GDP growth rate" style="max-width: 100%; height: auto;" />
   <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.4: Singapore’s Real GDP growth rate from 2000 to 2026 (Q1).</em></p>
 </div>
 
 Even after accounting for seasonal changes, the ratio of job vacancies to unemployed persons presents a marked decline, dropping to 1.46 by March 2026 [5]. This adjusted data confirms that cyclical trends are not the primary root cause of the rising unemployment figures, but as a catalyst to structural unemployment brought on by AI and skilled automation.   
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/fig5_article2.png" alt="Figure 5: Adjusted job vacancies" style="max-width: 100%; height: auto;" />
+  <img src="/economics-site/images/fig5_article2.png" alt="Figure 5: Adjusted job vacancies" style="max-width: 100%; height: auto;" />
   <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.5: Adjusted job vacancies present a notable fall, confirming real labor demand contraction outside of seasonal factors.</em></p>
 </div>
 
@@ -83,7 +83,7 @@ The primary labor market threat for fresh graduates is not unemployment, but rat
 Currently, fresh graduate employment rates have fallen noticeably from the post-pandemic recovery years of 2021 and 2022, dropping to 83.4% from a high of 94.4%. Full-time permanent employment has seen a similar trend of dropping to 74.4% from 87.5%, whereas part-time and temporary employment has steadily increased to 7.2%. [6] The rise in temporary and fall in full-time employment shows a decrease in both the quality and quantity of job placements for fresh graduates over the years.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/fig6_article2.png" alt="Figure 6: Fresh Graduate Employment Figures" style="max-width: 100%; height: auto;" />
+  <img src="/economics-site/images/fig6_article2.png" alt="Figure 6: Fresh Graduate Employment Figures" style="max-width: 100%; height: auto;" />
   <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.6: Fresh Graduate Employment Figures from 2020 to 2025.</em></p>
 </div>
 
@@ -93,7 +93,7 @@ In the short-term, the observed structural and cyclical underemployment figures 
 However, this wage depression is primarily a short-term issue as it stems from fresh graduates’ lack of specialised, non-automable skillsets. As graduates accumulate work experience via entry-level jobs or internships and are able to develop more in-depth skillsets, this issue is expected to dissipate as experienced graduates are able to command a wage premium in the labour market.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/fig7_article2.png" alt="Figure 7: Stagnant wages" style="max-width: 100%; height: auto;" />
+  <img src="/economics-site/images/fig7_article2.png" alt="Figure 7: Stagnant wages" style="max-width: 100%; height: auto;" />
   <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.7: Though inflation growth has slowed, stagnant wages may cause a fall in fresh graduates’ purchasing powers.</em></p>
 </div>
 
@@ -120,7 +120,7 @@ The presence of new technological advances displacing workers is not a new issue
 While the high-tech sector in Silicon Valley lost 16.5% of its jobs during the 2001-2008 bust, the average annual wage for remaining roles and newly created jobs in burgeoning technological industries surged by 36% [12]. The shedding of lower-level roles allowed the sector to pivot towards more advanced software and scientific research and production, clearing the local labour market for a higher skill and wage equilibrium.  
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/fig8_article2.png" alt="Figure 8: Silicon Valley Dot-Com bubble" style="max-width: 100%; height: auto;" />
+  <img src="/economics-site/images/fig8_article2.png" alt="Figure 8: Silicon Valley Dot-Com bubble" style="max-width: 100%; height: auto;" />
   <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.8: Silicon Valley before and after the Dot-Com bubble. Total high-tech jobs fell while the average annual wage rose as workers were pushed into higher-paying roles.</em></p>
 </div>
 

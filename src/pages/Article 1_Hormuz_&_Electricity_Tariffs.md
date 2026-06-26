@@ -47,7 +47,7 @@ Currently, the Consumer Price Index (CPI) reflects an overall month-on-month inc
     * **Corporate merging, restructuring and downsizing:** Retrenchments have climbed to a "Three-Year High" amidst restructuring and downsizing [8], with fewer job vacancies to replace retrenched workers and accommodate new graduates [9].
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/retrenchments-2026.png" alt="Retrenchments in Singapore Quarterly Graph" style="max-width: 100%; height: auto; border-radius: 8px;" />
+  <img src="/economics-site/images/retrenchments-2026.png" alt="Retrenchments in Singapore Quarterly Graph" style="max-width: 100%; height: auto; border-radius: 8px;" />
   <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.2: Retrenchments have risen to an all-time high since 2024 [10]</em></p>
 </div>
 
@@ -63,7 +63,7 @@ With the AI boom and Singapore’s push for AI integration both in the workspace
 1. **Immediate energy consumption levels:** Singapore currently accounts for 54% of Southeast Asia’s energy consumption in AI data centres [15,16]. Across the border, Johor’s data centres are expected to consume up to 40% of the state’s total electricity demand by 2035 [17].
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/data-centre-consumption.png" alt="Current Data Centre Energy Consumption in Southeast Asia by City" style="max-width: 100%; height: auto; border-radius: 8px;" />
+  <img src="/economics-site/images/data-centre-consumption.png" alt="Current Data Centre Energy Consumption in Southeast Asia by City" style="max-width: 100%; height: auto; border-radius: 8px;" />
   <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.3: Current Data Centre Energy Consumption in Southeast Asia by City [16]</em></p>
 </div>
 
