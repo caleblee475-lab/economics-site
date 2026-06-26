@@ -124,15 +124,15 @@ const heroImagePath = frontmatter.coverImage.startsWith('/')
       </div>
     </div>
   </body>
-  <script is:inline>
-  // This runs in the browser and fixes image paths automatically
-  const base = '/economics-site/'; 
-  document.querySelectorAll('.content img').forEach(img => {
-    let src = img.getAttribute('src');
-    // If the image starts with 'images/' but not the base, prefix it
-    if (src && src.startsWith('images/')) {
-      img.src = base + src;
-    }
-  });
-</script>
+  <script is:inline define:vars={{ base }}>
+    // 'base' is dynamically injected from Astro's frontmatter during build time!
+    document.querySelectorAll('.content img').forEach(img => {
+      let src = img.getAttribute('src');
+      
+      // If the image starts with 'images/', prefix it with the correct dynamic base
+      if (src && src.startsWith('images/')) {
+        img.src = base + '/' + src;
+      }
+    });
+  </script>
 </html>
