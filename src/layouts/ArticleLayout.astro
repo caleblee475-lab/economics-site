@@ -125,16 +125,13 @@ const heroImagePath = frontmatter.coverImage.startsWith('/')
     </div>
   </body>
   <script is:inline>
-  // This automatically finds all images in the content area 
-  // and fixes their paths to include your base directory.
+  // This runs in the browser and fixes image paths automatically
   const base = '/economics-site/'; 
   document.querySelectorAll('.content img').forEach(img => {
     let src = img.getAttribute('src');
-    // Check if the image points to the 'images/' folder
-    if (src && (src.startsWith('images/') || src.startsWith('/images/'))) {
-      // Remove leading slash if it exists
-      const cleanPath = src.replace(/^\//, '');
-      img.src = base + cleanPath;
+    // If the image starts with 'images/' but not the base, prefix it
+    if (src && src.startsWith('images/')) {
+      img.src = base + src;
     }
   });
 </script>
