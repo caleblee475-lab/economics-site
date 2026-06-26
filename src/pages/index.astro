@@ -1,29 +1,24 @@
 ---
-// Define a type for your Markdown frontmatter
-type Article = {
+// Define the interface for the article structure
+interface Frontmatter {
+  title: string;
+  pubDate: string;
+  region: string;
+  coverImage: string;
+  summary: string;
+}
+
+interface Article {
   url: string;
-  frontmatter: {
-    title: string;
-    pubDate: string;
-    region: string;
-    coverImage: string;
-    summary: string;
-  };
-};
+  frontmatter: Frontmatter;
+}
 
 // Import articles and define the base path
 const allArticles = Object.values(import.meta.glob('./*.md', { eager: true })) as Article[];
-const base = import.meta.env.BASE_URL || '/';
+const base = import.meta.env.BASE_URL;
 
 // Sort articles newest to oldest
 allArticles.sort((a: Article, b: Article) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate));
-
-// Helper to ensure path starts with base and doesn't have double slashes
-const getPath = (path: string) => {
-  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
-  const cleanBase = base.endsWith('/') ? base : `${base}/`;
-  return `${cleanBase}${cleanPath}`;
-};
 ---
 
 <html lang="en">
@@ -49,14 +44,14 @@ const getPath = (path: string) => {
     
     <div class="nav-bar">
       <a href={base}>Home</a> | 
-      <a href={`${base.endsWith('/') ? base.slice(0, -1) : base}/apac`}>APAC</a> | 
-      <a href={`${base.endsWith('/') ? base.slice(0, -1) : base}/europe`}>Europe</a>
+      <a href={`${base}apac`}>APAC</a> | 
+      <a href={`${base}europe`}>Europe</a>
     </div>
 
     <div>
-      {allArticles.map((article: Article) => (
-        <a href={getPath(article.url || '')} class="article-card">
-          <img src={getPath(article.frontmatter.coverImage || '')} class="thumbnail" alt="Cover Image" />
+      {allArticles.map((article) => (
+        <a href={`${base}${article.url.slice(1)}`} class="article-card">
+          <img src={`${base}${article.frontmatter.coverImage}`} class="thumbnail" alt="Cover Image" />
           
           <div>
             <div class="meta">{article.frontmatter.region} • {article.frontmatter.pubDate}</div>
