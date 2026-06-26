@@ -14,18 +14,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
+      - name: Checkout your repository
         uses: actions/checkout@v4
         
-      - name: Setup Node
+      # 1. We manually force the server to install Node 22
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-
-      - name: Install, build, and upload your site
-        uses: withastro/action@v3
+          
+      # 2. We manually tell it to download your background packages
+      - name: Install dependencies
+        run: npm install
+        
+      # 3. We manually tell Astro to build the HTML
+      - name: Build site
+        run: npm run build
+        
+      # 4. We package the finished site folder (Astro outputs to a folder named 'dist')
+      - name: Upload Artifacts
+        uses: actions/upload-pages-artifact@v3
         with:
-          node-version: "22"
+          path: ./dist
 
   deploy:
     needs: build
