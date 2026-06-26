@@ -18,6 +18,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Install, build, and upload your site
         uses: withastro/action@v3
+        with:
+          node-version: 24 # This forces GitHub to upgrade to Node 24
 
   deploy:
     needs: build
