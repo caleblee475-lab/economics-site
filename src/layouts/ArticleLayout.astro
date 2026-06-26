@@ -1,5 +1,7 @@
 ---
 const { frontmatter } = Astro.props;
+// This automatically gets your base path from your configuration
+const base = import.meta.env.BASE_URL;
 
 const pubDate = new Date(frontmatter.pubDate);
 const formattedDate = pubDate.toLocaleDateString('en-GB', {
