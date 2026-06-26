@@ -47,7 +47,7 @@ Currently, the Consumer Price Index (CPI) reflects an overall month-on-month inc
     * **Corporate merging, restructuring and downsizing:** Retrenchments have climbed to a "Three-Year High" amidst restructuring and downsizing [8], with fewer job vacancies to replace retrenched workers and accommodate new graduates [9].
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/economics-site/public/images/retrenchments-2026.png" alt="Retrenchments in Singapore Quarterly Graph" style="max-width: 100%; height: auto; border-radius: 8px;" />
+  <img src="images/retrenchments-2026.png" alt="Retrenchments in Singapore Quarterly Graph" style="max-width: 100%; height: auto; border-radius: 8px;" />
   <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.2: Retrenchments have risen to an all-time high since 2024 [10]</em></p>
 </div>
 
