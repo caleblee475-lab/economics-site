@@ -1,0 +1,150 @@
+---
+const { frontmatter } = Astro.props;
+
+const pubDate = new Date(frontmatter.pubDate);
+const formattedDate = pubDate.toLocaleDateString('en-GB', {
+  day: '2-digit',
+  month: '2-digit',
+  year: 'numeric'
+});
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{frontmatter.title}</title>
+    <style>
+      /* We remove the body padding so the layout can stretch, but keep the max-width container */
+      body { 
+        font-family: 'Georgia', serif; 
+        background-color: #F9F9F8; /* Soft off-white for the margins outside the paper */
+        color: #111; 
+        margin: 0; 
+        padding: 0; 
+      }
+      
+      .paper-container {
+        max-width: 768px; 
+        margin: 0 auto; 
+        background-color: #FFFFFF; /* The pure white cut-off background */
+        box-shadow: 0 0 20px rgba(0,0,0,0.05); /* Optional: Gives the page a subtle 3D paper effect */
+        min-height: 100vh;
+      }
+
+      .nav-bar { 
+        text-align: center; 
+        padding: 2rem 0 1rem 0;
+        font-family: 'Helvetica', 'Inter', sans-serif; 
+        font-weight: bold; 
+      }
+      .nav-bar a { color: #111; text-decoration: none; margin: 0 10px; }
+      .nav-bar a:hover { text-decoration: underline; }
+
+      /* The Experimental Hero Background */
+      .hero-section {
+        position: relative;
+        height: 50vh; /* Takes up 50% of the screen height */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end; /* Pushes the text to the bottom of the image */
+        padding: 2rem;
+        background-size: cover;
+        background-position: center;
+        border-top: 2px solid #111;
+        border-bottom: 2px solid #111;
+      }
+      
+      /* A dark gradient shadow so the white text is always readable */
+      .hero-overlay {
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.85));
+        z-index: 1;
+      }
+
+      /* Brings the text above the dark shadow */
+      .hero-text {
+        position: relative;
+        z-index: 2;
+        color: #FFFFFF; /* Pure white text contrasting the background */
+      }
+      
+      .article-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+        font-family: 'Helvetica', 'Inter', sans-serif;
+      }
+      
+      .article-meta {
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #E5E5E5;
+        font-family: 'Helvetica', 'Inter', sans-serif;
+      }
+
+      /* Formatting the Markdown text below the image */
+      .content {
+        padding: 2rem; /* Adds breathing room inside the white background */
+        line-height: 1.8; 
+        font-size: 1.1rem;
+      }
+      
+      .content h2 {
+        font-family: 'Helvetica', 'Inter', sans-serif;
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+      }
+
+      .content table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 2rem 0;
+        font-family: 'Helvetica', 'Inter', sans-serif;
+        font-size: 0.95rem;
+      }
+      .content th, .content td {
+        border: 1px solid #111;
+        padding: 0.8rem;
+      }
+      .content th {
+        background-color: #eaeaea; 
+      }
+      .content img {
+        border: 2px solid #111;
+        border-radius: 4px;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <!-- We wrap the whole page in a container to create the "pure white" cutoff effect -->
+    <div class="paper-container">
+      
+      <div class="nav-bar">
+        <a href="/">Home</a> | 
+        <a href="/apac">APAC</a> | 
+        <a href="/europe">Europe</a>
+      </div>
+
+      <!-- The Dynamic Background injects the cover image directly into the CSS style -->
+      <div class="hero-section" style={`background-image: url('${frontmatter.coverImage}');`}>
+        <div class="hero-overlay"></div>
+        <div class="hero-text">
+          <h1 class="article-title">{frontmatter.title}</h1>
+          <div class="article-meta">Uploaded &bull; {formattedDate}</div>
+        </div>
+      </div>
+
+      <!-- The text cuts off sharply into the pure white background here -->
+      <div class="content">
+        <slot />
+      </div>
+
+    </div>
+  </body>
+</html>

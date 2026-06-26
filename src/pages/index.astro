@@ -1,0 +1,112 @@
+---
+// We now use Vite's standard import.meta.glob to load all Markdown files in this directory
+const allArticles = Object.values(import.meta.glob('./*.md', { eager: true }));
+
+// This sorts the articles from newest to oldest based on pubDate
+allArticles.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate));
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Economic Intelligence</title>
+    <style>
+      /* Global Site Design */
+      body { 
+        font-family: 'Georgia', serif; 
+        background-color: #F9F9F8; /* Soft off-white */
+        color: #111; 
+        max-width: 768px; 
+        margin: 0 auto; 
+        padding: 2rem; 
+      }
+      
+      h1 { 
+        font-family: 'Helvetica', 'Inter', sans-serif; 
+        text-align: center; 
+        border-bottom: 2px solid #111; 
+        padding-bottom: 1rem; 
+      }
+      
+      .nav-bar { 
+        text-align: center; 
+        margin-bottom: 3rem; 
+        font-family: 'Helvetica', 'Inter', sans-serif; 
+        font-weight: bold; 
+      }
+      .nav-bar a {
+        color: #111;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      .nav-bar a:hover {
+        text-decoration: underline;
+      }
+
+      /* Feed Row Design */
+      .article-card { 
+        display: flex; 
+        align-items: center; 
+        background: white; 
+        padding: 1.5rem; 
+        border: 1px solid #E5E5E5;
+        margin-bottom: 1.5rem; 
+        text-decoration: none; 
+        color: inherit; 
+      }
+      
+      .article-card:hover { 
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05); 
+        transition: 0.2s ease-in-out; 
+      }
+      
+      .thumbnail { 
+        width: 120px; 
+        height: 120px; 
+        object-fit: cover; 
+        margin-right: 1.5rem; 
+        background-color: #EEE; /* Placeholder color if image fails */
+      }
+      
+      .meta { 
+        font-size: 0.85rem; 
+        color: #666; 
+        font-family: 'Helvetica', 'Inter', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase; 
+      }
+      
+      .title { 
+        margin: 0.5rem 0; 
+        font-size: 1.4rem; 
+        font-family: 'Helvetica', 'Inter', sans-serif; 
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Economic Intelligence</h1>
+    
+    <div class="nav-bar">
+      <a href="/">Home</a> | 
+      <a href="/apac">APAC</a> | 
+      <a href="/europe">Europe</a>
+    </div>
+
+    <!-- The Auto-Generating Feed -->
+    <div>
+      {allArticles.map((article) => (
+        <a href={article.url} class="article-card">
+          <img src={article.frontmatter.coverImage} class="thumbnail" alt="Cover Image" />
+          
+          <div>
+            <div class="meta">{article.frontmatter.region} • {article.frontmatter.pubDate}</div>
+            <h2 class="title">{article.frontmatter.title}</h2>
+            <div style="font-size: 1rem; color: #444;">{article.frontmatter.summary}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+  </body>
+</html>
