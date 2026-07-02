@@ -31,7 +31,7 @@ Local adoption of AI tools by businesses and workers remains upbeat; AI integrat
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="images/fig1_article2.png" alt="Figure 1: AI adoption rates" style="max-width: 100%; height: auto;" />
-  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.1: AI adoption rates have increased significantly across employers.</em></p>
+  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.1: AI adoption rates have increased significantly across employers.[2]</em></p>
 </div>
 
 However, the increased productivity rate per worker has resulted in lower demand for skilled labour, particularly for administrative and white-collar roles. Exacerbated by corporate cost-cutting priorities and margin compressions amidst the current economic downturn and energy cost-push inflation, the integration of AI has caused Singapore’s labour market to experience acute friction and contractions.
@@ -40,20 +40,20 @@ To fully appreciate the complexity of AI’s impact on Singapore’s labour mark
 
 ### Structural Unemployment: The Skills Gap
 
-The IMF has identified structural vulnerabilities in Singapore’s labour market as early as 2024, predicting that lower-complexity roles such as clerical and support jobs are in the high-exposure, low-complementarity subset. The report estimates that 38.6% of Singapore’s workforce was then at immediate risk of direct machine substitution and replacement. With AI being readily adopted at a pace faster than expected, we can expect this figure to increase in 2026. [3]
+The IMF has identified structural vulnerabilities in Singapore’s labour market as early as 2024, predicting that lower-complexity roles such as clerical and support jobs are in the high-exposure, low-complementarity subset. In this context, complementarity measures “the extent to which AI can complement human labor in the occupation”. The report estimates that 38.6% of Singapore’s workforce was then at immediate risk of direct machine substitution and replacement. With AI being readily adopted at a pace faster than expected, we can expect this figure to increase in 2026. [3]
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="images/fig2_article2.png" alt="Figure 2: AI-replacement risk" style="max-width: 100%; height: auto;" />
-  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.2: High-Exposure and Low-Complementarity roles are most at-risk of AI-replacement.</em></p>
+  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.2: High-Exposure and Low-Complementarity roles are most at-risk of AI-replacement.[3]</em></p>
 </div>
 
-An exacerbating factor would be the observation that such High-Exposure, Low-Complementarity occupations are concentrated in PMET jobs, chiefly Professional, Technical and Executive roles. While managerial positions stand to benefit the most from the adoption of AI tools, most PMET roles are at a significant risk of AI replacement as early as 2024 to 2025 according to the IMF report.
+An exacerbating factor would be the observation that such High-Exposure, Low-Complementarity occupations are concentrated in PMET jobs, chiefly Professional, Technical and Executive roles. While managerial positions stand to benefit the most from the adoption of AI tools, most PMET roles are at a significant risk of AI replacement as early as 2024 to 2025. [3]
 
-With PMET jobs making up 64.2% of employed residents in Singapore, the significant shocks to the PMET job sector brought by AI-induced redundancy would naturally spread to most of Singapore’s labour market, expanding the employment downturn to a national scale.  
+With PMET jobs making up 64.2% of employed residents in Singapore, the significant shocks to the PMET job sector brought by AI-induced redundancy would naturally spread to most of Singapore’s labour market, expanding the employment downturn to a national scale. [4]
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="images/fig3_article2.png" alt="Figure 3: At-risk occupations" style="max-width: 100%; height: auto;" />
-  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.3: At-risk occupations are concentrated in PMET and Administrative roles, the backbone of Singapore’s knowledge economy.</em></p>
+  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.3: At-risk occupations are concentrated in PMET and Administrative roles, the backbone of Singapore’s knowledge economy.[3,4]</em></p>
 </div>
 
 ### Business Cycles: Cyclical Cooling or True Unemployment?
@@ -69,7 +69,7 @@ Even after accounting for seasonal changes, the ratio of job vacancies to unempl
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="images/fig5_article2.png" alt="Figure 5: Adjusted job vacancies" style="max-width: 100%; height: auto;" />
-  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.5: Adjusted job vacancies present a notable fall, confirming real labor demand contraction outside of seasonal factors.</em></p>
+  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.5: Adjusted job vacancies present a notable fall, confirming real labor demand contraction outside of seasonal factors.[5]</em></p>
 </div>
 
 While the broader economy may currently enjoy positive growth in the short-term, the imminent cooling cycle will see corporations increasingly substitute human workers with automated agents and AI tools. If this is a permanent shift, we could observe a decoupling of Singapore’s economic output from employment rates, solidifying structural underemployment across the workforce as firms’ capital replaces human labour with AI tools and automated workflows.
@@ -84,7 +84,7 @@ Currently, fresh graduate employment rates have fallen noticeably from the post-
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="images/fig6_article2.png" alt="Figure 6: Fresh Graduate Employment Figures" style="max-width: 100%; height: auto;" />
-  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.6: Fresh Graduate Employment Figures from 2020 to 2025.</em></p>
+  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.6: Fresh Graduate Employment Figures from 2020 to 2025.[6]</em></p>
 </div>
 
 ### Microeconomic Implications: Sub-inflationary Wage Growth and Increasing Consumer Debt
@@ -94,7 +94,7 @@ However, this wage depression is primarily a short-term issue as it stems from f
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="images/fig7_article2.png" alt="Figure 7: Stagnant wages" style="max-width: 100%; height: auto;" />
-  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.7: Though inflation growth has slowed, stagnant wages may cause a fall in fresh graduates’ purchasing powers.</em></p>
+  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.7: Though inflation growth has slowed, stagnant wages may cause a fall in fresh graduates’ purchasing powers.[8]</em></p>
 </div>
 
 ### Macroeconomic Impacts: Reduced Consumer Confidence and Increased Government Spending
@@ -121,7 +121,7 @@ While the high-tech sector in Silicon Valley lost 16.5% of its jobs during the 2
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="images/fig8_article2.png" alt="Figure 8: Silicon Valley Dot-Com bubble" style="max-width: 100%; height: auto;" />
-  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.8: Silicon Valley before and after the Dot-Com bubble. Total high-tech jobs fell while the average annual wage rose as workers were pushed into higher-paying roles.</em></p>
+  <p style="font-size: 0.9rem; color: #555; margin-top: 0.5rem;"><em>Fig.8: Silicon Valley before and after the Dot-Com bubble. Total high-tech jobs fell while the average annual wage rose as workers were pushed into higher-paying roles.[13]</em></p>
 </div>
 
 ## Solow’s Productivity Paradox, General Purpose Technologies (GPT) and Time Lag: 
@@ -154,24 +154,25 @@ However, the long and expensive integration process identified by Solow’s Para
 
 We can maintain a cautiously optimistic outlook regarding long-term positive growth for both Singapore’s broader economy and its labor market. As the workforce graduates from the initial frictions of AI deployment and adapts to a more skills-demanding ecosystem, the resulting multifactor productivity boom will naturally clear the path for a highly resilient, higher-paying labor market. This structural upgrade will subsequently drive a permanent, long-term increase in aggregate domestic spending, proving that the integration of AI into the modern economy is ultimately a long-term net positive that outweighs the short-term transitionary downsides.
 
-### Sources:
+### Bibliography:
 
-1. https://www.usf.edu/continuing-education/lifelong-learning/news/2026/force-multipliers.aspx   
-2. https://www.imda.gov.sg/assets/e77d879a-6b39-4de4-b024-5e0c6da0eff3.pdf   
-3. https://www.imf.org/-/media/files/publications/selected-issues-papers/2024/english/sipea2024040.pdf   
-4. https://stats.mom.gov.sg/iMAS_PdfLibrary/mrsd_2025Labourforce.pdf   
-5. https://www.straitstimes.com/business/more-retrenchments-in-singapore-in-q1-of-2026-as-job-vacancies-drop   
-6. https://data.gov.sg/datasets/d_3c55210de27fcccda2ed0c63fdd2b352/view   
-7. https://www.channelnewsasia.com/today/big-read/buy-now-pay-later-debt-credit-4846131   
-8. https://www.ipsos.com/sites/default/files/ct/news/documents/2026-01/ipsos-global-consumer-confidence-trends-january-2026.pdf   
-9. https://www.straitstimes.com/multimedia/graphics/2026/02/singapore-budget-revenue-and-spending-breakdown-2026/index.html   
-10. https://www.singaporebudget.gov.sg/budget-speech/budget-statement/d-build-a-resilient-and-skilled-workforce#Build-a-Resilient-and-Skilled-Workforce   
-11. https://www.channelnewsasia.com/singapore/ai-artificial-intelligence-skills-courses-ihl-university-polytechnic-ite-students-2027-6133781   
-12. https://www.bls.gov/opub/btn/archive/after-the-dot-com-bubble-silicon-valley-high-tech-employment-and-wages-in-2001-and-2008.pdf   
-13. https://www.sciencedirect.com/science/article/pii/S0165176501005511   
-14. https://www.eco-business.com/news/a-third-of-southeast-asias-data-centres-could-be-powered-by-renewable-energy-by-2030-study/   
-15. https://sbr.com.sg/information-technology/news/spore-expand-beyond-14gw-data-centre-capacity-amidst-ai-boom-teo#:~:text=Push%20targets%20sectors%20powering%20over,and%20Information%20Josephine%20Teo%20said   
-16. https://www.singstat.gov.sg/files/7ade01f6-3c35-498e-a2e4-423ba4c72d0f.pdf   
-17. https://www.aboutamazon.sg/news/aws/amazons-planned-investments-in-southeast-asia-cloud-and-ai-infrastructure-to-reach-over-us-33-billion-by-2039   
-18. https://www.mddi.gov.sg/newsroom/singapore-signs-first-memorandum-of-understanding-with-openai-to-develop--openai-for-singapore-/   
-19. https://news.microsoft.com/source/asia/2026/04/01/microsoft-announces-5-5-billion-spend-and-new-microsoft-elevate-programs-to-support-every-tertiary-student-educator-and-nonprofit-to-power-singapores-ai-future/
+1. University of South Florida, & Tsongranis, G. (2026, April 30). Force Multipliers: Maximising Organisational Leverage. usf.edu. Retrieved June 5, 2026, from https://www.usf.edu/continuing-education/lifelong-learning/news/2026/force-multipliers.aspx 
+2. Singapore Digital Economy. (2025). Singapore Digital Economy Report 2025. https://www.imda.gov.sg/-/media/imda/files/about/resources/corporate-publications/annual-report/imda-sgde-report-fy2024-2025.pdf 
+3. Khan, S. & IMF. (2024). Impact of AI on Singapore’s Labor Market. In IMF Selected Issues Papers (SIP/2024/040). International Monetary Fund (IMF). Retrieved June 13, 2026, from https://www.imf.org/-/media/files/publications/selected-issues-papers/2024/english/sipea2024040.pdf 
+4. Manpower Research and Statistics Department. (2026). Labour Force in Singapore 2025. https://stats.mom.gov.sg/iMAS_PdfLibrary/mrsd_2025Labourforce.pdf 
+5. Salim, S. (2026, June 16). More retrenchments in Singapore in Q1 2026 as job vacancies drop. The Straits Times. https://www.straitstimes.com/business/more-retrenchments-in-singapore-in-q1-of-2026-as-job-vacancies-drop 
+6. Graduate Employment Survey - NTU, NUS, SIT, SMU, SUSS & SUTD | MOE. (n.d.). data.gov.sg. https://data.gov.sg/datasets/d_3c55210de27fcccda2ed0c63fdd2b352/view 
+7. Yeap, A. (2025, March 28). Growing comfort with debt as more young Singaporeans use “buy now, pay later” service for daily spending. CNA. https://www.channelnewsasia.com/today/big-read/buy-now-pay-later-debt-credit-4846131 
+8. MAS & MTI. (2026). Consumer Price Developments in February 2026. Monetary Authority of Singapore (MAS). Retrieved May 5, 2026, from https://www.mas.gov.sg/news/consumer-price-developments/2026/consumer-price-developments-in-february-2026 
+9. Ipsos. (2026). GLOBAL CONSUMER CONFIDENCE INDEX: TRENDS SINCE 2010. In Ipsos. https://www.ipsos.com/sites/default/files/ct/news/documents/2026-01/ipsos-global-consumer-confidence-trends-january-2026.pdf 
+10. Liang, A., Tay, A., Tampus, C., Goh, T. T., Duhalde, M., & Teoh, S. (2026, February 12). Singapore Budget 2026: A step to secure the future. The Straits Times. https://www.straitstimes.com/multimedia/graphics/2026/02/singapore-budget-revenue-and-spending-breakdown-2026/index.html 
+11. MOF. (2026). Singapore Budget Statement 2026: Build a Resilient and Skilled Workforce. Retrieved May 6, 2026, from https://www.singaporebudget.gov.sg/budget-speech/budget-statement/d-build-a-resilient-and-skilled-workforce#Build-a-Resilient-and-Skilled-Workforce 
+12. Yow, D. (2026, May 21). All university, polytechnic and ITE students to learn AI skills from 2027. CNA. https://www.channelnewsasia.com/singapore/ai-artificial-intelligence-skills-courses-ihl-university-polytechnic-ite-students-2027-6133781 
+13. U.S. Bureau of Labor Statistics, Mann, A., & Nunes, T. (2009). After the Dot-Com Bubble: Silicon Valley High-Tech Employment and Wages in 2001 and 2008. In Regional Report. U.S. Bureau of Labor Statistics. https://www.bls.gov/opub/btn/archive/after-the-dot-com-bubble-silicon-valley-high-tech-employment-and-wages-in-2001-and-2008.pdf 
+14. Jacobs, B., & Nahuis, R. (2002). A general purpose technology explains the Solow paradox and wage inequality. Economics Letters, 74(2), 243–250. https://doi.org/10.1016/S0165-1765(01)00551-1 
+15. Fernandez, H. A. (2025, June 2). A third of Southeast Asia’s data centres could be powered by renewable energy by 2030: study. Eco-Business. https://www.eco-business.com/news/a-third-of-southeast-asias-data-centres-could-be-powered-by-renewable-energy-by-2030-study/ 
+16. Singapore Business Review. (2026, June 6). S’pore to expand beyond 1.4GW data centre capacity amidst AI boom: Teo. Singapore Business Review. https://sbr.com.sg/information-technology/news/spore-expand-beyond-14gw-data-centre-capacity-amidst-ai-boom-teo#:~:text=Push%20targets%20sectors%20powering%20over,and%20Information%20Josephine%20Teo%20said 
+17. Department of Statistics Singapore. (2026). Foreign Direct Investment in Singapore (Flows) 2025. In Singstat. Singapore Department of Statistics. Retrieved May 5, 2026, from https://www.singstat.gov.sg/files/7ade01f6-3c35-498e-a2e4-423ba4c72d0f.pdf 
+18. About Amazon Sg. (2026, May 21). Amazon’s Planned Investments in Southeast Asia AI and Cloud Infrastructure to Reach Over US$33 billion by 2039. About Amazon. Retrieved June 4, 2026, from https://www.aboutamazon.sg/news/aws/amazons-planned-investments-in-southeast-asia-cloud-and-ai-infrastructure-to-reach-over-us-33-billion-by-2039 
+19. MDDI. (2026). Singapore Signs First Memorandum of Understanding with OpenAI to Develop “OpenAI for Singapore.” In MDDI Newsroom. Ministry of Digital Development and Information (MDDI). Retrieved June 4, 2026, from https://www.mddi.gov.sg/newsroom/singapore-signs-first-memorandum-of-understanding-with-openai-to-develop--openai-for-singapore-/ 
+20. Microsoft Singapore. (2026, April 1). Microsoft announces $5.5 billion spend and new Microsoft Elevate programs to support every tertiary student, educator and nonprofit to power Singapore’s AI future. Retrieved May 6, 2026, from https://news.microsoft.com/source/asia/2026/04/01/microsoft-announces-5-5-billion-spend-and-new-microsoft-elevate-programs-to-support-every-tertiary-student-educator-and-nonprofit-to-power-singapores-ai-future/ 
