@@ -101,6 +101,16 @@ const heroImagePath = frontmatter.coverImage.startsWith('/')
         border-radius: 4px;
         max-width: 100%;
       }
+
+      .site-footer {
+        text-align: center;
+        padding: 2rem 0;
+        margin-top: 4rem;
+        border-top: 1px solid #E5E5E5;
+        font-size: 0.85rem;
+        color: #666;
+        font-family: 'Helvetica', 'Inter', sans-serif;
+      }
     </style>
   </head>
   <body>
@@ -122,6 +132,10 @@ const heroImagePath = frontmatter.coverImage.startsWith('/')
       <div class="content">
         <slot />
       </div>
+
+      <footer class="site-footer">
+        &copy; {new Date().getFullYear()} Economic Intelligence. All rights reserved.
+      </footer>
     </div>
   </body>
   <script is:inline define:vars={{ base }}>
